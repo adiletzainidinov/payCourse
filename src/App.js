@@ -19,7 +19,7 @@ import { motion } from 'framer-motion';
 import { AiFillCheckCircle } from 'react-icons/ai';
 import logoMuslimKids from './assets/MuslimKidsLogoReal.png';
 import Details from './components/Details';
-import HelpersText from './components/HelpersText';
+// import HelpersText from './components/HelpersText';
 
 // -------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -127,7 +127,7 @@ function App() {
               )}
             </HStack>
 
-            <HelpersText/>
+            {/* <HelpersText/> */}
 
             <Details />
           </VStack>

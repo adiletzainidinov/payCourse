@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { FaWhatsapp, FaClipboard } from 'react-icons/fa';
-import { FiYoutube } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa';
 
 const Details = () => {
@@ -141,10 +140,11 @@ const Details = () => {
               </Text>
               <Text fontSize="sm" mt="1em" color="gray.600" textAlign="center">
                 Чтобы перевести деньги, скопируйте номер карты или
-                воспользуйтесь приложением вашего банка. <br /> <br /> После
-                того как совершите оплату, отправьте чек в мой Telegram, и я
-                добавлю вас в группу спонсоров, чтобы вы могли отслеживать, как
-                используются ваши средства. <br /> Мой Telegram:{' '}
+                воспользуйтесь приложением вашего банка.
+                <br />
+                <br /> После оплаты отправьте чек в мой Telegram, и я добавлю
+                вас в Telegram-группу до начала учёбы.
+                <br /> Мой Telegram:
                 <a
                   href="https://t.me/Makka567"
                   target="_blank"
@@ -212,21 +212,20 @@ const Details = () => {
         w={'100%'}
         maxW={'280px'}
       >
-        Перейдя по ссылке ниже, вы сможете узнать все подробности о нашем
-        будущем мусульманском YouTube-канале.{' '}
+        Перейдя по ссылке ниже, вы сможете узнать подробнее о нашем курсе
       </Text>
       <Box textAlign="center" mt="1em">
         <Button
           as="a"
-          href="https://mtube-two.vercel.app/"
+          href="https://m-three-weld.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           colorScheme="red"
           size="lg"
-          leftIcon={<Icon as={FiYoutube} />}
+          // leftIcon={<Icon as={FiYoutube} />}
           _hover={{ transform: 'scale(1.05)' }}
         >
-          Muslim You Tube
+          узнать подробнее
         </Button>
       </Box>
     </>
